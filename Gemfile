@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+gem 'shoulda-matchers', '~> 4.5.1'
+gem 'faker', '~> 2.17.0'
+gem 'pry-factorybot', '~> 0.1.4'
+gem 'rspec', '~> 3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
 # Use sqlite3 as the database for Active Record
